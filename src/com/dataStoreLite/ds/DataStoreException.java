@@ -1,8 +1,10 @@
 package com.dataStoreLite.ds;
 
-class DataStoreFileExceedException extends Exception{
+class DataStoreLiteException extends Exception{
 
-    DataStoreFileExceedException(String message){
+    DataStoreLiteException(String message){
         super(message);
     }
+
+
 }
